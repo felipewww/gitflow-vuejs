@@ -4,6 +4,7 @@
     <p>Card #1</p>
     <p>Card #2 - merge commit233</p>
     <p>Card #2 - versão 2.0.0. Deverá ser revertido para cá!</p>
+    <p>Card #3 - deverá sumir se ser revertido!</p>
   </div>
 </template>
 
@@ -19,7 +20,10 @@ export default {
       let x = 10
       let text = ''
       if (x > 10) {
-        text = 'maior que dez'
+        text = 'Maior que dez!'
+      } else {
+        // else no card #3 que deve ser deletado
+        text = 'ou é maior ou menor'
       }
 
       return text
