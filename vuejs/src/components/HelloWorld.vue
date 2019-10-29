@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>v2.0.1 HOTFIX</p>
+    <p>v2.0.1 HOTFIX v2</p>
   </div>
 </template>
 
