@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <p>Card #1</p>
     <p>Card #2 - merge commit233</p>
+    <p>Card #3 - v1.2.1 - deverá ser revertido</p>
   </div>
 </template>
 
