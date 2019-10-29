@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>Card #1</p>
-    <p>Card #2 - merge commit2</p>
+    <p>Card #2 - merge commit233</p>
   </div>
 </template>
 
