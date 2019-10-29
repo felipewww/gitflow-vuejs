@@ -19,7 +19,7 @@ export default {
       let x = 10
       let text = ''
       if (x > 10) {
-        text = 'maior que dez'
+        text = 'maior que dez =)'
       }
 
       return text
