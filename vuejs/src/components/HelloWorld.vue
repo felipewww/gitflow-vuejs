@@ -20,7 +20,7 @@ export default {
       let x = 10
       let text = ''
       if (x > 10) {
-        text = 'Maior que dez!'
+        text = 'Maior que dez! =)'
       } else {
         // else no card #3 que deve ser deletado
         text = 'ou é maior ou menor'
