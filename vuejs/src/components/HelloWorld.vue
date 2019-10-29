@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <p>Card #1</p>
     <p>Card #2 - merge commit233</p>
+    <p>Card #2 - versão 2.0.0. Deverá ser revertido para cá!</p>
   </div>
 </template>
 
@@ -11,6 +12,19 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods: {
+    // v2.0.0
+    fake: () => {
+      let x = 10
+      let text = ''
+      if (x > 10) {
+        text = 'maior que dez'
+      }
+
+      return text
+    }
+    // v2.0.0
   }
 }
 </script>
